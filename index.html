@@ -44,9 +44,9 @@
           />
         </svg>
 
-        <h2 class="text-3xl font-bold text-gray-900">Create your accaunt</h2>
+        <h2 class="mt-2 text-2xl font-bold text-gray-900 sm:mt-6 sm:text-3xl">Create your accaunt</h2>
       </div>
-      <div class="mx-auto mt-10 w-full max-w-md rounded-xl bg-white/50 p-10 shadow-xl backdrop-blur-xl">
+      <div class="mx-auto mt-6 sm:mt-10 w-full max-w-md rounded-xl bg-white/50 p-6 sm:p-10 shadow-xl backdrop-blur-xl">
         <form action="#" autocomplete="off" class="space-y-6">
           <div>
             <label class="block text-sm font-medium text-gray-700" for="name">Name</label>
@@ -101,10 +101,10 @@
                 id="email"
                 name="email"
                 placeholder="john@email.com "
-                class="w-full text-red-900 placeholder-red-300 rounded-md border-red-300 pl-10 text-sm focus:border-red-500 focus:ring-red-500"
+                class="w-full rounded-md border-red-300 pl-10 text-sm text-red-900 placeholder-red-300 focus:border-red-500 focus:ring-red-500"
               />
             </div>
-            <p class="mt-2 text-red-600 text-sm">You email must be valid email addres</p>
+            <p class="mt-2 text-sm text-red-600">You email must be valid email addres</p>
           </div>
           <div>
             <label class="block text-sm font-medium text-gray-700" for="password">Password</label>
@@ -164,7 +164,17 @@
               />
             </div>
           </div>
+          <div>
+            <a
+              href="#"
+              class="flex items-center justify-center rounded-md bg-green-600 px-4 py-2 font-semibold text-white shadow-lg transition duration-150 ease-out hover:bg-green-700 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+              >Sign Up</a
+            >
+          </div>
         </form>
+        <div class="mt-6 flex items-center justify-center">
+          <a href="#" class="text-sm font-medium text-green-600 hover:text-green-500">Alredy have an account?</a>
+        </div>
       </div>
     </div>
   </body>
